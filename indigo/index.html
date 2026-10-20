@@ -1,0 +1,323 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Главная — концепт A, Индиго-ателье</title>
+<script src="./vendor/react.js"></script>
+<script src="./vendor/react-dom.js"></script>
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&amp;family=Tenor+Sans&amp;display=swap">
+<style>
+body{margin:0;background:#0A1424}
+html{scroll-behavior:smooth}
+a{color:#9DBBE6}a:hover{color:#FFFFFF}
+a:focus-visible,button:focus-visible{outline:3px solid #8FB0DD;outline-offset:3px}
+.ba-range{-webkit-appearance:none;appearance:none}
+.ba-range:focus-visible ~ .ba-knob .ba-dot{outline:3px solid #8FB0DD;outline-offset:4px}
+.work-card img{transition:transform .6s ease}
+.work-card:hover img{transform:scale(1.03)}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (max-width: 640px){
+.m-header{padding-top:14px !important;padding-bottom:12px !important;gap:12px 16px !important}
+.m-cta{order:2;width:100%;flex-wrap:nowrap !important;justify-content:space-between;gap:10px !important}
+.m-cta > a:first-child{font-size:clamp(15px, 4.4vw, 18px) !important;white-space:nowrap}
+.m-cta > a:last-child{padding:0 16px !important;white-space:nowrap}
+.m-nav{order:3;width:calc(100% + 40px);margin:0 -20px;padding:2px 20px 4px;box-sizing:border-box;flex-wrap:nowrap !important;overflow-x:auto;white-space:nowrap;gap:22px !important;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.m-nav::-webkit-scrollbar{display:none}
+.m-works{grid-auto-rows:240px !important;gap:12px !important}
+}
+</style>
+</helmet>
+<div id="top" style="font-family: Manrope, system-ui, -apple-system, 'Segoe UI', sans-serif; color: #EEF2F8; background: #0A1424">
+
+  <div style="border-bottom: 1px solid rgba(198, 214, 236, 0.12)">
+    <header class="m-header" style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 20px clamp(20px, 4vw, 48px); display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px 40px">
+      <a href="#top" aria-label="Мебельная мастерская Алексея Мешкова — на главную" style="display: flex; align-items: center; gap: 14px; text-decoration: none">
+        <img src="./assets/d508d9677260cd27402f82b203e45e08.svg" alt="" style="height: 46px; width: auto; display: block">
+        <span style="display: flex; flex-direction: column; gap: 5px">
+          <span style="font-size: 10px; font-weight: 700; line-height: 1; letter-spacing: 0.26em; text-transform: uppercase; color: #C9D5E6">Мебельная мастерская</span>
+          <img src="./assets/5bc6c355499c33c4a18a7f76ef1fd378.svg" alt="" style="height: 30px; width: auto; display: block">
+        </span>
+      </a>
+      <nav class="m-nav" aria-label="Разделы" style="display: flex; flex-wrap: wrap; gap: 8px 32px; font-size: 15px; font-weight: 500">
+        <a href="#works" style="text-decoration: none">Работы</a>
+        <a href="#why" style="text-decoration: none">Почему мы</a>
+        <a href="#process" style="text-decoration: none">Как заказать</a>
+        <a href="#contacts" style="text-decoration: none">Контакты</a>
+      </nav>
+      <div class="m-cta" style="display: flex; flex-wrap: wrap; align-items: center; gap: 12px 22px">
+        <a href="tel:+79228481016" style="font-size: 17px; font-weight: 700; color: #F3F6FB; text-decoration: none; letter-spacing: 0.01em">+7 (922) 848-10-16</a>
+        <a href="tel:+79228481016" style="display: inline-flex; align-items: center; gap: 10px; min-height: 48px; padding: 0 24px; box-sizing: border-box; border-radius: 999px; background: #E6EEF8; color: #0A1424; font-size: 15px; font-weight: 700; text-decoration: none">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+          Позвонить
+        </a>
+      </div>
+    </header>
+  </div>
+
+  <section style="background-color: #0A1424; background-image: repeating-linear-gradient(115deg, rgba(150, 180, 225, 0.035) 0 1px, transparent 1px 4px)">
+    <div style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 56px clamp(20px, 4vw, 48px) 96px; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 56px 72px; align-items: center">
+      <div style="display: flex; flex-direction: column; gap: 28px">
+        <div style="display: flex; align-items: center; gap: 14px">
+          <span aria-hidden="true" style="width: 44px; border-top: 2px dashed {{stitch}}"></span>
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #9DBBE6">Перетяжка и ремонт мягкой мебели · Оренбург</span>
+        </div>
+        <h1 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: clamp(42px, 5.4vw, 76px); line-height: 1.04; letter-spacing: -0.01em; color: #F3F6FB; text-wrap: balance">Мебель как новая — без покупки новой</h1>
+        <p style="margin: 0; max-width: 520px; font-size: 18px; line-height: 1.6; color: #B4C2D6; text-wrap: pretty">Перетягиваем и ремонтируем диваны, кресла, кровати и мебель для бизнеса. Работаем по договору — с гарантией и точным сроком.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 14px">
+          <a href="tel:+79228481016" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 30px; box-sizing: border-box; border-radius: 999px; background: #E6EEF8; color: #0A1424; font-size: 16px; font-weight: 700; text-decoration: none">
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"></path></svg>
+            Позвонить мастеру
+          </a>
+          <a href="#works" style="display: inline-flex; align-items: center; gap: 10px; min-height: 56px; padding: 0 28px; box-sizing: border-box; border-radius: 999px; border: 1px solid rgba(230, 238, 248, 0.4); color: #EEF2F8; font-size: 16px; font-weight: 600; text-decoration: none">
+            Смотреть работы
+            <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 5v14M6 13l6 6 6-6"></path></svg>
+          </a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 10px; font-size: 15px; color: #A7B5CA">
+          <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+          <span>Мастерская: ул. Марины Расковой, 10В</span>
+        </div>
+      </div>
+
+      <figure style="margin: 0; display: flex; flex-direction: column; gap: 14px">
+        <div style="position: relative; width: 100%; aspect-ratio: 4 / 5; max-height: 640px; border-radius: 6px; overflow: hidden; background: #152843; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45)">
+          <img src="./assets/3808dd38eba2893dcad5fa780c4fc0d5.jpg" alt="Кресло до перетяжки" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 45%; display: block">
+          <img src="./assets/c41ba3c2efb5a779744130da317d78d2.jpg" alt="Кресло после перетяжки" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: center 45%; display: block; clip-path: inset(0 0 0 {{heroPos}}%)">
+          <span style="position: absolute; top: 16px; left: 16px; padding: 8px 14px; border-radius: 999px; background: rgba(10, 20, 36, 0.8); color: #EEF2F8; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase">Было</span>
+          <span style="position: absolute; top: 16px; right: 16px; padding: 8px 14px; border-radius: 999px; background: #E6EEF8; color: #0A1424; font-size: 12px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase">Стало</span>
+          <input class="ba-range" type="range" min="0" max="100" value="{{heroPos}}" onChange="{{onHero}}" aria-label="Сравнить кресло до и после перетяжки" style="position: absolute; inset: 0; width: 100%; height: 100%; margin: 0; opacity: 0; cursor: ew-resize">
+          <div class="ba-knob" aria-hidden="true" style="position: absolute; top: 0; bottom: 0; left: {{heroPos}}%; width: 2px; margin-left: -1px; background: #E6EEF8; pointer-events: none">
+            <span class="ba-dot" style="position: absolute; top: 50%; left: 50%; width: 52px; height: 52px; margin: -26px 0 0 -26px; border-radius: 50%; background: #E6EEF8; color: #0A1424; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35)">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 7l-5 5 5 5M15 7l5 5-5 5"></path></svg>
+            </span>
+          </div>
+        </div>
+        <figcaption style="display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 20px; font-size: 14px; color: #A7B5CA">
+          <span><span style="color: #EEF2F8; font-weight: 600">Кресло</span> · полная перетяжка</span>
+          <span>Потяните ползунок, чтобы сравнить</span>
+        </figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="why" aria-label="Почему выбирают мастерскую" style="border-top: 1px solid rgba(198, 214, 236, 0.12); border-bottom: 1px solid rgba(198, 214, 236, 0.12); background: #0D1A2E">
+    <div style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 64px clamp(20px, 4vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 40px 40px">
+      <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 28px; border-top: 2px dashed {{stitch}}">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#9DBBE6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 4.5-3 8.3-7 10-4-1.7-7-5.5-7-10V6l7-3z"></path><path d="M9 12l2 2 4-4"></path></svg>
+        <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 23px; line-height: 1.2; color: #F3F6FB">Гарантия по договору</h3>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Перечень работ, стоимость и гарантийный срок фиксируем в договоре до начала работ.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 28px; border-top: 2px dashed {{stitch}}">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#9DBBE6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+        <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 23px; line-height: 1.2; color: #F3F6FB">Быстрые сроки</h3>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Срок называем сразу и соблюдаем его. Перетяжка дивана — от [N] дней.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 28px; border-top: 2px dashed {{stitch}}">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#9DBBE6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8 8 0 0 1-11.6 7.1L4 20l1-4.6A8 8 0 1 1 21 12z"></path><path d="M8.5 12l2.2 2.2 4.8-4.7"></path></svg>
+        <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 23px; line-height: 1.2; color: #F3F6FB">Внимательный сервис</h3>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Поможем выбрать ткань под интерьер и бюджет, ответим на вопросы на каждом этапе.</p>
+      </div>
+      <div style="display: flex; flex-direction: column; gap: 14px; padding-top: 28px; border-top: 2px dashed {{stitch}}">
+        <svg aria-hidden="true" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#9DBBE6" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 5-9 5-9-5 9-5z"></path><path d="M3 13l9 5 9-5"></path></svg>
+        <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 23px; line-height: 1.2; color: #F3F6FB">Качественные материалы</h3>
+        <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Мебельные ткани, наполнители и фурнитура, рассчитанные на ежедневную нагрузку.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="works" style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 104px clamp(20px, 4vw, 48px) 96px; display: flex; flex-direction: column; gap: 40px">
+    <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: space-between; gap: 24px 40px">
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 14px">
+          <span aria-hidden="true" style="width: 44px; border-top: 2px dashed {{stitch}}"></span>
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #9DBBE6">Портфолио</span>
+        </div>
+        <h2 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: clamp(36px, 4vw, 56px); line-height: 1.05; color: #F3F6FB">Работы мастерской</h2>
+      </div>
+      <div role="group" aria-label="Фильтр работ" style="display: flex; flex-wrap: wrap; gap: 8px">
+        <sc-for list="{{chips}}" as="chip" hint-placeholder-count="6">
+          <button type="button" onClick="{{chip.pick}}" aria-pressed="{{chip.pressed}}" style="min-height: 44px; padding: 0 18px; border-radius: 999px; border: 1px solid {{chip.border}}; background: {{chip.bg}}; color: {{chip.fg}}; font-family: inherit; font-size: 14px; font-weight: 600; cursor: pointer">{{chip.label}}</button>
+        </sc-for>
+      </div>
+    </div>
+
+    <div class="m-works" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(min(340px, 100%), 1fr)); grid-auto-rows: 300px; grid-auto-flow: dense; gap: 16px">
+      <sc-for list="{{works}}" as="w" hint-placeholder-count="9">
+        <figure class="work-card" style="position: relative; margin: 0; grid-row: {{w.rows}}; border-radius: 6px; overflow: hidden; background: #152843">
+          <img src="{{w.src}}" alt="{{w.alt}}" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; object-position: {{w.pos}}; display: block">
+          <sc-if value="{{w.showingBefore}}" hint-placeholder-val="{{false}}">
+            <span style="position: absolute; top: 14px; left: 14px; padding: 7px 12px; border-radius: 999px; background: rgba(10, 20, 36, 0.82); color: #EEF2F8; font-size: 11px; font-weight: 800; letter-spacing: 0.16em; text-transform: uppercase">Было</span>
+          </sc-if>
+          <figcaption style="position: absolute; left: 12px; right: 12px; bottom: 12px; display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 10px 10px 10px 16px; border-radius: 6px; background: rgba(10, 20, 36, 0.88)">
+            <span style="display: flex; flex-direction: column; gap: 3px; min-width: 0">
+              <span style="font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-size: 18px; line-height: 1.2; color: #F3F6FB">{{w.title}}</span>
+              <span style="font-size: 13px; line-height: 1.3; color: #A7B5CA">{{w.note}}</span>
+            </span>
+            <sc-if value="{{w.hasBefore}}" hint-placeholder-val="{{true}}">
+              <button type="button" onClick="{{w.toggle}}" style="flex: none; min-height: 44px; padding: 0 14px; border-radius: 999px; border: 1px solid rgba(230, 238, 248, 0.35); background: transparent; color: #EEF2F8; font-family: inherit; font-size: 13px; font-weight: 700; cursor: pointer">{{w.toggleLabel}}</button>
+            </sc-if>
+          </figcaption>
+        </figure>
+      </sc-for>
+    </div>
+
+    <div style="display: flex; flex-wrap: wrap; gap: 12px 32px; font-size: 16px; font-weight: 600">
+      <a href="https://vk.ru/club223276881" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none">Больше работ во ВКонтакте
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+      </a>
+      <a href="https://www.avito.ru/orenburg/predlozheniya_uslug/peretyazhka_myagkoy_mebeli_1946658184" style="display: inline-flex; align-items: center; gap: 8px; text-decoration: none">Работы и отзывы на Авито
+        <svg aria-hidden="true" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17L17 7M8 7h9v9"></path></svg>
+      </a>
+    </div>
+  </section>
+
+  <section id="process" style="background: #0D1A2E; border-top: 1px solid rgba(198, 214, 236, 0.12)">
+    <div style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 96px clamp(20px, 4vw, 48px); display: flex; flex-direction: column; gap: 48px">
+      <div style="display: flex; flex-direction: column; gap: 16px">
+        <div style="display: flex; align-items: center; gap: 14px">
+          <span aria-hidden="true" style="width: 44px; border-top: 2px dashed {{stitch}}"></span>
+          <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #9DBBE6">Как заказать</span>
+        </div>
+        <h2 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: clamp(32px, 3.4vw, 48px); line-height: 1.1; color: #F3F6FB">Четыре шага до обновлённой мебели</h2>
+      </div>
+      <ol style="list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fit, minmax(min(240px, 100%), 1fr)); gap: 32px 40px">
+        <li style="display: flex; flex-direction: column; gap: 12px">
+          <span style="font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-size: 56px; line-height: 1; color: {{stitch}}">01</span>
+          <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 22px; line-height: 1.25; color: #F3F6FB">Позвоните или пришлите фото</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Расскажите, что нужно обновить, — оценим объём работ по фотографии.</p>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 12px">
+          <span style="font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-size: 56px; line-height: 1; color: {{stitch}}">02</span>
+          <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 22px; line-height: 1.25; color: #F3F6FB">Выберите ткань</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Подберём материал под интерьер и бюджет, назовём точную стоимость и срок.</p>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 12px">
+          <span style="font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-size: 56px; line-height: 1; color: {{stitch}}">03</span>
+          <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 22px; line-height: 1.25; color: #F3F6FB">Заключим договор</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Стоимость, сроки и гарантия — на бумаге, без сюрпризов в конце.</p>
+        </li>
+        <li style="display: flex; flex-direction: column; gap: 12px">
+          <span style="font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-size: 56px; line-height: 1; color: {{stitch}}">04</span>
+          <h3 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: 22px; line-height: 1.25; color: #F3F6FB">Получите мебель как новую</h3>
+          <p style="margin: 0; font-size: 15px; line-height: 1.6; color: #A7B5CA">Аккуратно перетянем в мастерской и вернём мебель в срок, указанный в договоре.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section id="contacts" style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 104px clamp(20px, 4vw, 48px); display: grid; grid-template-columns: repeat(auto-fit, minmax(min(460px, 100%), 1fr)); gap: 48px 72px; align-items: center">
+    <div style="display: flex; flex-direction: column; gap: 28px">
+      <div style="display: flex; align-items: center; gap: 14px">
+        <span aria-hidden="true" style="width: 44px; border-top: 2px dashed {{stitch}}"></span>
+        <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.16em; text-transform: uppercase; color: #9DBBE6">Контакты</span>
+      </div>
+      <h2 style="margin: 0; font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-weight: 400; font-size: clamp(32px, 3.6vw, 50px); line-height: 1.08; color: #F3F6FB; text-wrap: balance">Позвоните — обсудим вашу мебель</h2>
+      <a href="tel:+79228481016" style="font-family: 'Tenor Sans', 'Trebuchet MS', sans-serif; font-size: clamp(30px, 3.2vw, 44px); line-height: 1.1; color: #FFFFFF; text-decoration: none">+7 (922) 848-10-16</a>
+      <div style="display: flex; flex-direction: column; gap: 14px; font-size: 16px; color: #C9D5E6">
+        <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9DBBE6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"></path><circle cx="12" cy="9.5" r="2.5"></circle></svg>
+          <span>Оренбург, ул. Марины Расковой, 10В</span>
+          <a href="https://yandex.ru/maps/?text=Оренбург,+ул.+Марины+Расковой,+10В" style="font-weight: 600">Открыть на карте</a>
+        </div>
+        <div style="display: flex; align-items: center; gap: 14px">
+          <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#9DBBE6" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v5l3 2"></path></svg>
+          <span>[Часы работы]</span>
+        </div>
+      </div>
+      <div style="display: flex; flex-wrap: wrap; gap: 12px">
+        <a href="tel:+79228481016" style="display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 0 26px; box-sizing: border-box; border-radius: 999px; background: #E6EEF8; color: #0A1424; font-size: 15px; font-weight: 700; text-decoration: none">Позвонить</a>
+        <a href="https://vk.ru/club223276881" style="display: inline-flex; align-items: center; gap: 8px; min-height: 52px; padding: 0 24px; box-sizing: border-box; border-radius: 999px; border: 1px solid rgba(230, 238, 248, 0.4); color: #EEF2F8; font-size: 15px; font-weight: 600; text-decoration: none">Написать во ВКонтакте</a>
+        <a href="https://www.avito.ru/orenburg/predlozheniya_uslug/peretyazhka_myagkoy_mebeli_1946658184" style="display: inline-flex; align-items: center; gap: 8px; min-height: 52px; padding: 0 24px; box-sizing: border-box; border-radius: 999px; border: 1px solid rgba(230, 238, 248, 0.4); color: #EEF2F8; font-size: 15px; font-weight: 600; text-decoration: none">Авито</a>
+      </div>
+    </div>
+    <img src="./assets/75702784bbdf2c5912e1fed0f88abb4c.jpg" alt="Логотип мастерской на синей ткани" style="width: 100%; aspect-ratio: 16 / 10; object-fit: cover; object-position: center; border-radius: 6px; display: block; box-shadow: 0 30px 80px rgba(0, 0, 0, 0.45)">
+  </section>
+
+  <footer style="border-top: 1px solid rgba(198, 214, 236, 0.12)">
+    <div style="max-width: 1280px; margin: 0 auto; box-sizing: border-box; padding: 32px clamp(20px, 4vw, 48px) 40px; display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 20px 40px">
+      <div style="display: flex; align-items: center; gap: 14px">
+        <img src="./assets/d508d9677260cd27402f82b203e45e08.svg" alt="" style="height: 38px; width: auto; display: block">
+        <span style="display: flex; flex-direction: column; gap: 4px">
+          <span style="font-size: 9px; font-weight: 700; line-height: 1; letter-spacing: 0.26em; text-transform: uppercase; color: #C9D5E6">Мебельная мастерская</span>
+          <img src="./assets/5bc6c355499c33c4a18a7f76ef1fd378.svg" alt="Алексея Мешкова" style="height: 25px; width: auto; display: block">
+        </span>
+      </div>
+      <p style="margin: 0; font-size: 14px; line-height: 1.5; color: #A7B5CA">© 2026 Мебельная мастерская Алексея Мешкова · Перетяжка мягкой мебели в Оренбурге</p>
+    </div>
+  </footer>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props='{"stitch":{"editor":"color","default":"#6F95CC","options":["#6F95CC","#A9BEDD","#C8A46A"]},"$preview":{"width":1440,"height":4300}}'>
+class Component extends DCLogic {
+  renderVals() {
+    const s = this.state || {};
+    const heroPos = s.heroPos ?? 50;
+    const filter = s.filter ?? 'all';
+    const shown = s.before || {};
+    const stitch = this.props.stitch ?? '#6F95CC';
+    const works = [
+      { id: 'chair', cat: 'chairs', title: 'Кресло', note: 'Полная перетяжка', after: './assets/c41ba3c2efb5a779744130da317d78d2.jpg', before: './assets/3808dd38eba2893dcad5fa780c4fc0d5.jpg', tall: true, pos: 'center 45%' },
+      { id: 'teal', cat: 'sofas', title: 'Диван', note: 'Перетяжка со сменой цвета', after: './assets/ba23b12d0163698d1f6c452a8b3e5b65.jpg', before: '', tall: false, pos: 'center 60%' },
+      { id: 'headboard', cat: 'beds', title: 'Кровать с мягким изголовьем', note: 'Вертикальная стёжка', after: './assets/bbc5b187faff4505f61022883ef30624.jpg', before: '', tall: true, pos: 'center 30%' },
+      { id: 'corner', cat: 'sofas', title: 'Угловой диван', note: 'Комбинированная обивка', after: './assets/2dcc25a35c6eae1525654b79d854804b.jpg', before: './assets/d4832bb4023c0f9d91f411106e5cf2e6.jpg', tall: false, pos: 'center' },
+      { id: 'ushape', cat: 'sofas', title: 'П-образный диван', note: 'Полная перетяжка', after: './assets/b61d0557414c6d68377f6ee093ff3a0a.jpg', before: './assets/02672cec1b84d4ee4ca98ba78d810c73.jpg', tall: false, pos: 'center 65%' },
+      { id: 'armrest', cat: 'repair', title: 'Подлокотник дивана', note: 'Ремонт после повреждения', after: './assets/002b90a92b70656033c014b705aaf239.jpg', before: './assets/6166bc8ae6fb23b781d9bebad2effdc4.jpg', tall: true, pos: 'center' },
+      { id: 'salon', cat: 'business', title: 'Ресепшн и диван для салона', note: 'Каретная стяжка', after: './assets/174189fad41bb26fd9326727a5ed9bfb.jpg', before: '', tall: false, pos: 'center 55%' },
+      { id: 'recliner', cat: 'sofas', title: 'Диван-реклайнер', note: 'Перетяжка с сохранением отделки', after: './assets/39e3782c056d0fd85e296a0fc687a357.jpg', before: '', tall: false, pos: 'center 60%' },
+      { id: 'brown', cat: 'sofas', title: 'Угловой диван', note: 'Полная перетяжка', after: './assets/e07fae6485a17a2c9fd88854e212798d.jpg', before: './assets/1deb14787f6549138328ca8fea76504e.jpg', tall: false, pos: 'center 60%' }
+    ];
+    const cats = [
+      { id: 'all', label: 'Все' },
+      { id: 'sofas', label: 'Диваны' },
+      { id: 'chairs', label: 'Кресла' },
+      { id: 'beds', label: 'Кровати' },
+      { id: 'business', label: 'Для бизнеса' },
+      { id: 'repair', label: 'Ремонт' }
+    ];
+    const chips = cats.map((c) => {
+      const on = c.id === filter;
+      return {
+        label: c.label,
+        pressed: on,
+        bg: on ? '#E6EEF8' : 'transparent',
+        fg: on ? '#0A1424' : '#C9D5E6',
+        border: on ? '#E6EEF8' : 'rgba(201, 213, 230, 0.35)',
+        pick: () => this.setState({ filter: c.id })
+      };
+    });
+    const list = works
+      .filter((w) => filter === 'all' || w.cat === filter)
+      .map((w) => {
+        const sb = !!shown[w.id] && !!w.before;
+        return {
+          title: w.title,
+          note: w.note,
+          pos: w.pos,
+          rows: w.tall ? 'span 2' : 'span 1',
+          src: sb ? w.before : w.after,
+          alt: w.title + (sb ? ' — до перетяжки' : ' — после перетяжки'),
+          showingBefore: sb,
+          hasBefore: !!w.before,
+          toggleLabel: sb ? 'Как стало' : 'Как было',
+          toggle: () => this.setState({ before: Object.assign({}, shown, { [w.id]: !shown[w.id] }) })
+        };
+      });
+    return {
+      stitch,
+      heroPos,
+      onHero: (e) => this.setState({ heroPos: Number(e.target.value) }),
+      chips,
+      works: list
+    };
+  }
+}
+</script>
+</body>
+</html>
