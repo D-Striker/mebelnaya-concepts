@@ -1,8 +1,8 @@
-:HL["/mebelnaya-concepts/denim/_next/static/chunks/2o32nmnk3jctl.css","style"]
+:HL["/mebelnaya-concepts/denim/_next/static/chunks/1os7y5dq82u-o.css","style"]
 :HL["/mebelnaya-concepts/denim/_next/static/media/16d91c780434f2ce-s.p.0y1w0k24nk0rl.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mebelnaya-concepts/denim/_next/static/media/336577612d7c27c6-s.p.2mnntz5w7b9l_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mebelnaya-concepts/denim/_next/static/media/8800dfc60902df36-s.p.2sla2yow9-9p_.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mebelnaya-concepts/denim/_next/static/media/a7504b3b03812bde-s.p.0u7kop77k5p_2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mebelnaya-concepts/denim/logo/mark.svg","image"]
 :HL["/mebelnaya-concepts/denim/logo/script.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"politika-konfidencialnosti","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"cZS88qLDZZhbJMRu1X6YB"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"politika-konfidencialnosti","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"3LDTBZLz24FW1_BITlIXm"}
