@@ -10,4 +10,4 @@
 :HL["/mebelnaya-concepts/denim/images/works/krovat-795.webp","image",{"imageSrcSet":"/mebelnaya-concepts/denim/images/works/krovat-480.webp 480w, /mebelnaya-concepts/denim/images/works/krovat-795.webp 795w","imageSizes":"52px"}]
 :HL["/mebelnaya-concepts/denim/images/works/divan-teal-713.webp","image",{"imageSrcSet":"/mebelnaya-concepts/denim/images/works/divan-teal-480.webp 480w, /mebelnaya-concepts/denim/images/works/divan-teal-713.webp 713w","imageSizes":"(max-width: 1040px) 100vw, 600px","fetchPriority":"high"}]
 :HL["/mebelnaya-concepts/denim/images/works/divan-teal-before-713.webp","image",{"imageSrcSet":"/mebelnaya-concepts/denim/images/works/divan-teal-before-480.webp 480w, /mebelnaya-concepts/denim/images/works/divan-teal-before-713.webp 713w","imageSizes":"240px"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"SVKf2t6rnHcAiTMmgfem-"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4224,"slots":null}}},"staleTime":300,"buildId":"xeH7hHgVG9GU720n6P9Vp"}
