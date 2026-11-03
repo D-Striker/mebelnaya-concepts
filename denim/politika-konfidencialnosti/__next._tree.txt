@@ -5,4 +5,4 @@
 :HL["/mebelnaya-concepts/denim/_next/static/media/a7504b3b03812bde-s.p.0u7kop77k5p_2.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
 :HL["/mebelnaya-concepts/denim/logo/mark.svg","image"]
 :HL["/mebelnaya-concepts/denim/logo/script.svg","image"]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"politika-konfidencialnosti","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"xeH7hHgVG9GU720n6P9Vp"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"politika-konfidencialnosti","param":null,"prefetchHints":4160,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}},"staleTime":300,"buildId":"-zuZ37mRLrT1JNRy6z0pX"}

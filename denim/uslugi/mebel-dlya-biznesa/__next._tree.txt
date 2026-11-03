@@ -6,4 +6,4 @@
 :HL["/mebelnaya-concepts/denim/logo/mark.svg","image"]
 :HL["/mebelnaya-concepts/denim/logo/script.svg","image"]
 :HL["/mebelnaya-concepts/denim/images/works/salon-995.webp","image",{"imageSrcSet":"/mebelnaya-concepts/denim/images/works/salon-480.webp 480w, /mebelnaya-concepts/denim/images/works/salon-995.webp 995w","imageSizes":"(max-width: 1040px) 100vw, 600px","fetchPriority":"high"}]
-0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"uslugi","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"mebel-dlya-biznesa","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"xeH7hHgVG9GU720n6P9Vp"}
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"uslugi","param":null,"prefetchHints":4160,"slots":{"children":{"name":"slug","param":{"type":"d","key":"mebel-dlya-biznesa","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"-zuZ37mRLrT1JNRy6z0pX"}
